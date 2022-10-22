@@ -19,6 +19,18 @@
     align-content: start;
 }
 
+.group{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    align-items: center;
+    row-gap: 1vh;
+    justify-items: start;
+}
+
+.pic{
+    grid-column: 1/2;
+}
+
 
 .header{
     grid-column: 2/3;
