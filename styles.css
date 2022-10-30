@@ -33,8 +33,13 @@ ul{
     padding: 0;
 }
 
+.announcement-card img{
+    height: 25px;
+    width: 25px;
+}
+
 ul li{
-    margin: 1vh 0vw 1vh 0vw;
+    margin: 2vh 0vw 3vh 0vw;
     font-size: large;
     list-style: none;
     display: flex;
@@ -68,6 +73,10 @@ ul li{
     display: grid;
     grid-template-columns: 1fr 6fr;
     column-gap: 1vw;
+}
+
+.search-bar img{
+    justify-self: right;
 }
 
 input{
